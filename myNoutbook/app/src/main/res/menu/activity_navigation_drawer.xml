@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/msi"
+            android:icon="@drawable/msi"
+            android:title="@string/msi" />
+        <item
+            android:id="@+id/acer"
+            android:icon="@drawable/predator"
+            android:title="@string/acer" />
+
+        <item
+            android:id="@+id/asus"
+            android:icon="@drawable/asus"
+            android:title="@string/asus" />
+
+        <item
+        android:id="@+id/gigabyte"
+        android:icon="@drawable/gigabyte"
+        android:title="@string/gigabyte" />
+    </group>
+    <item android:title="@string/powerful_and_stylish">
+        <menu>
+            <item
+                android:id="@+id/apple"
+                android:icon="@drawable/apple"
+                android:title="@string/apple" />
+            <item
+                android:id="@+id/razer_blade"
+                android:icon="@drawable/razer"
+                android:title="@string/razer_blade" />
+
+        </menu>
+    </item>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_home_24dp"
+                android:title="@string/home" />
+            <item
+                android:id="@+id/shopping_card"
+                android:icon="@drawable/ic_shopping_cart_24dp"
+                android:title="@string/cart" />
+            <item
+                android:id="@+id/nav_favorite"
+                android:icon="@drawable/ic_favorite_press_24dp"
+                android:title="@string/favorite" />
+        </menu>
+    </item>
+
+</menu>
